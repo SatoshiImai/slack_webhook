@@ -1,5 +1,5 @@
 PYTHON_VER			:= 3.11.5
-virtualenv			:= $(PYTHON_VER)-template
+VENV				:= $(PYTHON_VER)-slack_webhook
 
 test_all:
 	@if [ -e htmlcov ]; then\
